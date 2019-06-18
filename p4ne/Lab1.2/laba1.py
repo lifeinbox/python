@@ -13,6 +13,6 @@ list1 = list(map(getvalue, aСolumn))
 list2 = list(map(getvalue, cСolumn))
 list3 = list(map(getvalue, dСolumn))
 
-pyplot.plot(list1, list3, label="Метка")
-pyplot.plot(list1, list2, label="Метка")
+pyplot.plot(list1, list3)
+pyplot.plot(list1, list2)
 pyplot.show()
